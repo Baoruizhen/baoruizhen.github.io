@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>包瑞祯</title>
-    <updated>2019-08-16T10:43:23.197Z</updated>
+    <updated>2019-08-21T15:56:32.534Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
     <logo>https://baoruizhen.github.io/images/avatar.png</logo>
     <icon>https://baoruizhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 包瑞祯</rights>
+    <entry>
+        <title type="html"><![CDATA[Figma教程丨画布上的对象]]></title>
+        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-hua-bu-shang-de-dui-xiang</id>
+        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-hua-bu-shang-de-dui-xiang">
+        </link>
+        <updated>2019-08-21T15:39:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Figma教程丨入门]]></title>
+        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-ru-men</id>
+        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-ru-men">
+        </link>
+        <updated>2019-08-20T08:24:16.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Figma非正规教程丨中国象棋]]></title>
         <id>https://baoruizhen.github.io/post/figma-fei-zheng-gui-jiao-cheng-gun</id>
