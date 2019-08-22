@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>包瑞祯</title>
-    <updated>2019-08-22T08:19:59.840Z</updated>
+    <updated>2019-08-22T08:26:47.366Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
+    <subtitle>&lt;div class=&quot;social-container&quot;&gt;
+    
+      
+        &lt;a href=&quot;https://github.com/Baoruizhen&quot; target=&quot;_blank&quot;&gt;
+          &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  &lt;/div&gt;</subtitle>
     <logo>https://baoruizhen.github.io/images/avatar.png</logo>
     <icon>https://baoruizhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 包瑞祯</rights>
