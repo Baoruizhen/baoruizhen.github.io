@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Figma教程丨属性界面 | Boring Design</title>
+<title>Figma教程丨约束Constraints | Boring Design</title>
 <meta name="description" content="你从哪里发现的这个网站？老包的小秘密都在这里" />
 <link rel="shortcut icon" href="https://baoruizhen.github.io/favicon.ico?v=1567142288406">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -86,11 +86,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Figma教程丨属性界面
+              Figma教程丨约束Constraints
             </h2>
             <div class="post-info">
               <span>
-                2019-08-22
+                2019-08-24
               </span>
               <span>
                 1 min read
@@ -100,71 +100,65 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>当您在编辑器中时，您将在画布的每一侧看到侧边栏。与工具栏一起，这些侧边栏构成了Figma UI。<br>
-在本文中，我们将带您浏览属性面板。<br>
-<img src="https://baoruizhen.github.io/post-images/1566461031774.png" alt=""><br>
-面板顶部有三个标题。您可以使用它们在以下选项卡之间切换：</p>
-<ol>
-<li>设计</li>
-<li>原型</li>
-<li>代码</li>
-</ol>
-<h1 id="设计">设计</h1>
-<p>“ 设计”选项卡允许您查看，添加，删除或更改设计中对象的属性。<br>
-如果在“设计面板”中未选择任何内容，则可以查看“文件”的任何样式。您还可以更新画布的背景颜色。<br>
-<img src="https://baoruizhen.github.io/post-images/1566461093823.png" alt=""><br>
-选择图层后，“设计”选项卡将包含许多不同的设置。您选择的图层类型将确定“属性”面板中可用的设置。</p>
-<p>例如：选择文本对象时，您将能够查看和调整文本格式。选择组件后，您将能够在“ 实例”设置中查看，分离或替换实例。<br>
-<img src="https://baoruizhen.github.io/post-images/1566461157430.png" alt=""><br>
-当前处于活动状态的所有属性都将显示为黑色。未应用于所选图层的非活动属性将显示为灰色。<br>
-“设计”选项卡中提供了以下属性。您可以单击下面的链接以了解有关每个属性的更多信息：</p>
+                <p>在Figma使用约束来调整画布大小时对象应该如何响应。<br>
+这有助于您控制设计在不同屏幕尺寸和设备上的外观。</p>
+<h1 id="使用约束">使用约束</h1>
+<p>您可以将约束应用于画布内的任何对象。</p>
 <ul>
-<li>对齐和分配</li>
-<li>画布尺寸和方向</li>
-<li>画布上的位置（X和Y）</li>
-<li>元素的尺寸（宽度和高度）</li>
-<li>实例</li>
-<li>约束</li>
-<li>布局网格</li>
-<li>图层（混合模式）</li>
-<li>背景</li>
-<li>文字</li>
-<li>填充</li>
-<li>模式</li>
-<li>效果</li>
-<li>导出</li>
+<li>您还可以将约束应用于嵌套在其他画布中的画布。</li>
+<li>您可以对对象应用水平和垂直约束。</li>
+<li>您可以使用约束来定义对象在滚动原型时的响应方式。</li>
+<li>您无法将约束应用于组。组将从其中包含的对象继承其边界。它们不被视为具有边界的单个对象。</li>
 </ul>
-<h1 id="原型">原型</h1>
-<p>该原型面板，您可以访问所有的原型功能。打开此选项卡，您将进入原型模式<br>
-这允许您在设计中的画布之间建立连接。然后，您可以应用模拟用户可能与其交互的过渡。<br>
-原型选项卡包含四个部分：</p>
-<ol>
-<li>触发器：什么样的用户动作决定原型交互。</li>
-<li>反馈：决定原型如何响应用户的交互。</li>
-<li>溢出行为：定义用户如何与超出画板边界的元素进行交互。</li>
-<li>原型设置：允许您定义设备，背景颜色和起始画板。<br>
-<img src="https://baoruizhen.github.io/post-images/1566461625980.png" alt=""><br>
-在我们的原型入门文章中了解有关原型选项卡和创建原型的更多信息。</li>
-</ol>
-<h1 id="代码">代码</h1>
-<p>“属性”面板中的第三个选项是“ 代码”选项。这允许您查看如何在代码中表达设计元素。<br>
-您可以选择以下格式：</p>
+<pre><code>注意： 如果将约束应用于组，我们将这些应用于单个对象。
+</code></pre>
+<h1 id="水平约束">水平约束</h1>
+<p>当您沿x轴调整画布大小时，水平约束将定义对象的行为。</p>
 <ul>
-<li>CSS（Web开发）</li>
-<li>iOS</li>
-<li>Android<br>
-<img src="https://baoruizhen.github.io/post-images/1566461758911.png" alt=""><br>
-您还可以使用提供的图标在<em>代码</em>和<em>列表</em>视图之间切换：<br>
-<img src="https://baoruizhen.github.io/post-images/1566461792835.png" alt=""><br>
-<img src="https://baoruizhen.github.io/post-images/1566461825204.png" alt=""></li>
+<li>Left/左：保持对象相对于画布左侧的位置。</li>
+<li>Right/右：保持对象相对于画布右侧的位置。</li>
+<li>Left and Right/左和右：保持对象相对于画布两侧的大小和位置。调整大小时，这可能会导致对象沿x轴增长或缩小。</li>
+<li>Center/中心：保持对象相对于画布水平中心的位置。</li>
+<li>Scale/缩放：将定义对象的大小和位置，作为画布的尺寸的百分比。然后在调整大小时保持这些比例。</li>
 </ul>
+<pre><code>例如：画布的宽度为100px，对象的宽度为70px，即对象占据画布的70％。如果我们将画布的大小调整为200px宽，Figma会将对象的大小调整为140px，即200px的70％。
+</code></pre>
+<p><img src="https://baoruizhen.github.io/post-images/1566612544996.png" alt=""></p>
+<h1 id="垂直约束">垂直约束</h1>
+<p>当您沿y轴调整画布大小时，垂直约束将定义对象的行为。</p>
+<ul>
+<li>Top/顶部：保持对象相对于画布顶部的位置。</li>
+<li>Bottom/底部：保持对象相对于画布底部的位置。</li>
+<li>Top and Bottom/顶部和底部：保持对象相对于画布顶部和底部的大小和位置。调整大小时，这可能会导致对象沿y轴增大或缩小。</li>
+<li>Center/中心：保持对象相对于画布垂直中心的位置。</li>
+<li>Scale/缩放：将定义对象的大小和位置，作为画布的尺寸的百分比。然后在调整大小时保持这些比例。<br>
+<img src="https://baoruizhen.github.io/post-images/1566612874749.png" alt=""></li>
+</ul>
+<pre><code>注意： 根据对象的位置，多个约束可能会获得相同的结果。
+</code></pre>
+<h1 id="将约束应用于对象">将约束应用于对象</h1>
+<p>要设置项目的约束：</p>
+<ol>
+<li>选择画布内的对象或父对象。蓝色虚线显示当前应用的约束： <img src="https://baoruizhen.github.io/post-images/1566612935919.png" alt=""></li>
+<li>转到“属性”面板中的“约束”设置：<img src="https://baoruizhen.github.io/post-images/1566612993555.png" alt=""></li>
+<li>使用第一个下拉菜单设置<strong>水平约束</strong>： <img src="https://baoruizhen.github.io/post-images/1566613044988.png" alt=""></li>
+<li>使用第二个下拉菜单设置<strong>垂直约束</strong>： <img src="https://baoruizhen.github.io/post-images/1566613193696.png" alt=""></li>
+<li>或者，使用图标（在下拉菜单的左侧）设置对象的约束：<img src="https://baoruizhen.github.io/post-images/1566613453159.png" alt=""></li>
+</ol>
+<blockquote>
+<p>小技巧：按住shift键选择两个约束，例如左侧和右侧，或顶部和底部。</p>
+</blockquote>
+<ol start="6">
+<li>要在滚动时将对象保持在相同位置，请选中滚动时修复位置框：</li>
+</ol>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li><a href="#%E8%AE%BE%E8%AE%A1">设计</a></li>
-<li><a href="#%E5%8E%9F%E5%9E%8B">原型</a></li>
-<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E7%BA%A6%E6%9D%9F">使用约束</a></li>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E7%BA%A6%E6%9D%9F">水平约束</a></li>
+<li><a href="#%E5%9E%82%E7%9B%B4%E7%BA%A6%E6%9D%9F">垂直约束</a></li>
+<li><a href="#%E5%B0%86%E7%BA%A6%E6%9D%9F%E5%BA%94%E7%94%A8%E4%BA%8E%E5%AF%B9%E8%B1%A1">将约束应用于对象</a></li>
 </ul>
 
               </div>
@@ -175,9 +169,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-hua-bu">
+            <a href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu">
               <h3 class="post-title">
-                Figma教程丨画布
+                Figma教程丨约束
               </h3>
             </a>
           </div>

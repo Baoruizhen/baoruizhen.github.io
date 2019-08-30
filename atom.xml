@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>Boring Design</title>
-    <updated>2019-08-24T01:20:36.390Z</updated>
+    <updated>2019-08-30T05:18:14.311Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://baoruizhen.github.io/images/avatar.png</logo>
     <icon>https://baoruizhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Boring Design</rights>
+    <entry>
+        <title type="html"><![CDATA[分享丨黑客马拉松项目-链上制造]]></title>
+        <id>https://baoruizhen.github.io/post/fen-xiang-gun-hei-ke-ma-la-song-xiang-mu-lian-shang-zhi-zao</id>
+        <link href="https://baoruizhen.github.io/post/fen-xiang-gun-hei-ke-ma-la-song-xiang-mu-lian-shang-zhi-zao">
+        </link>
+        <updated>2019-08-27T16:11:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Figma教程丨约束Constraints]]></title>
+        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu-constraints</id>
+        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu-constraints">
+        </link>
+        <updated>2019-08-24T02:00:38.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Figma教程丨约束]]></title>
+        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu</id>
+        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu">
+        </link>
+        <updated>2019-08-24T02:00:38.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Figma教程丨智能选择]]></title>
         <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-zhi-neng-xuan-ze</id>
@@ -58,26 +79,5 @@
         <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-tu-ceng-mian-ban">
         </link>
         <updated>2019-08-22T05:58:44.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨设计工具栏]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-she-ji-gong-zuo-tai</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-she-ji-gong-zuo-tai">
-        </link>
-        <updated>2019-08-22T04:55:00.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨画布上的对象]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-hua-bu-shang-de-dui-xiang</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-hua-bu-shang-de-dui-xiang">
-        </link>
-        <updated>2019-08-21T15:39:13.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨入门]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-ru-men</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-ru-men">
-        </link>
-        <updated>2019-08-20T08:24:16.000Z</updated>
     </entry>
 </feed>
