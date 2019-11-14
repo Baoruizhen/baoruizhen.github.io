@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>Boring Design</title>
-    <updated>2019-09-04T05:24:59.237Z</updated>
+    <updated>2019-11-14T02:37:53.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
@@ -11,18 +11,11 @@
     <icon>https://baoruizhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Boring Design</rights>
     <entry>
-        <title type="html"><![CDATA[AU大师汇主播串场词]]></title>
-        <id>https://baoruizhen.github.io/post/au-da-shi-hui-zhu-bo-chuan-chang-ci</id>
-        <link href="https://baoruizhen.github.io/post/au-da-shi-hui-zhu-bo-chuan-chang-ci">
+        <title type="html"><![CDATA[未来时代的不确定性之美--INIT人工智能潮牌]]></title>
+        <id>https://baoruizhen.github.io/post/wei-lai-shi-dai-de-bu-que-ding-xing-zhi-mei-init-ren-gong-zhi-neng-chao-pai</id>
+        <link href="https://baoruizhen.github.io/post/wei-lai-shi-dai-de-bu-que-ding-xing-zhi-mei-init-ren-gong-zhi-neng-chao-pai">
         </link>
-        <updated>2019-09-04T05:11:37.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[体验丨快播王欣的新产品]]></title>
-        <id>https://baoruizhen.github.io/post/ti-yan-gun-kuai-bo-wang-xin-de-xin-chan-pin</id>
-        <link href="https://baoruizhen.github.io/post/ti-yan-gun-kuai-bo-wang-xin-de-xin-chan-pin">
-        </link>
-        <updated>2019-08-30T15:59:36.000Z</updated>
+        <updated>2019-11-14T01:40:15.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[灵感早报-设计用脑就看灵感早报]]></title>
@@ -39,34 +32,6 @@
         <updated>2019-08-27T16:11:10.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Figma教程丨约束Constraints]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu-constraints</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu-constraints">
-        </link>
-        <updated>2019-08-24T02:00:38.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨约束]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-yue-shu">
-        </link>
-        <updated>2019-08-24T02:00:38.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨智能选择]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-zhi-neng-xuan-ze</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-zhi-neng-xuan-ze">
-        </link>
-        <updated>2019-08-23T08:34:42.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Figma教程丨图层相关]]></title>
-        <id>https://baoruizhen.github.io/post/figma-jiao-cheng-gun-tu-ceng-xiang-guan</id>
-        <link href="https://baoruizhen.github.io/post/figma-jiao-cheng-gun-tu-ceng-xiang-guan">
-        </link>
-        <updated>2019-08-23T07:26:38.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[和林木子果的设计比赛作品]]></title>
         <id>https://baoruizhen.github.io/post/he-lin-mu-zi-guo-de-she-ji-bi-sai-zuo-pin</id>
         <link href="https://baoruizhen.github.io/post/he-lin-mu-zi-guo-de-she-ji-bi-sai-zuo-pin">
@@ -79,5 +44,12 @@
         <link href="https://baoruizhen.github.io/post/lin-mu-zi-guo-de-she-ji-lian-xi-zuo-pin">
         </link>
         <updated>2019-08-22T14:34:23.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[试一试评论]]></title>
+        <id>https://baoruizhen.github.io/post/shi-yi-shi-ping-lun</id>
+        <link href="https://baoruizhen.github.io/post/shi-yi-shi-ping-lun">
+        </link>
+        <updated>2019-08-15T08:19:21.000Z</updated>
     </entry>
 </feed>
