@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>Boring Design</title>
-    <updated>2020-07-13T06:33:11.528Z</updated>
+    <updated>2020-07-13T06:35:55.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
@@ -29,6 +29,12 @@
         <link href="https://baoruizhen.github.io/post/init/">
         </link>
         <updated>2019-10-30T01:40:15.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="1-hackathon开始前的思考">1. Hackathon开始前的思考</h1>
+<p>上周末，我们一伙人凑凑又去参加了XdHacks SH，本来也没有什么准备，加之主办方现场也加了题目，再结合我们之前做的那些数字化项目，所以这次我们就想尝试一下跨界，看看能不能在时尚领域，有没有一些新的可能性。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="1-hackathon开始前的思考">1. Hackathon开始前的思考</h1>
+<p>上周末，我们一伙人凑凑又去参加了XdHacks SH，本来也没有什么准备，加之主办方现场也加了题目，再结合我们之前做的那些数字化项目，所以这次我们就想尝试一下跨界，看看能不能在时尚领域，有没有一些新的可能性。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[灵感早报-设计用脑就看灵感早报]]></title>
@@ -43,6 +49,10 @@
         <link href="https://baoruizhen.github.io/post/fen-xiang-gun-hei-ke-ma-la-song-xiang-mu-lian-shang-zhi-zao/">
         </link>
         <updated>2019-08-27T16:11:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近一段时间手痒，约了几个创客大腿，在宁波参加了一个黑客松，现场做了个项目——链上智造，当然少不了在宁波当地玩一玩～队伍名叫NNBB，取自宁宁波波，在25个中韩创客队伍中也获得了第三名的成绩。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近一段时间手痒，约了几个创客大腿，在宁波参加了一个黑客松，现场做了个项目——链上智造，当然少不了在宁波当地玩一玩～队伍名叫NNBB，取自宁宁波波，在25个中韩创客队伍中也获得了第三名的成绩。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[和林木子果的设计比赛作品]]></title>
