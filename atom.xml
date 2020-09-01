@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://baoruizhen.github.io</id>
     <title>Boring Design</title>
-    <updated>2020-09-01T15:12:14.956Z</updated>
+    <updated>2020-09-01T15:15:56.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://baoruizhen.github.io"/>
     <link rel="self" href="https://baoruizhen.github.io/atom.xml"/>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[居家运动设备设计——瑜伽躺椅_YOGA_LOUNGE]]></title>
-        <id>https://baoruizhen.github.io/post/r2VMit4yR/</id>
-        <link href="https://baoruizhen.github.io/post/r2VMit4yR/">
+        <id>https://baoruizhen.github.io/post/YOGALOUNGE/</id>
+        <link href="https://baoruizhen.github.io/post/YOGALOUNGE/">
         </link>
         <updated>2020-07-12T09:17:44.000Z</updated>
         <summary type="html"><![CDATA[<p>3月之后回到上海，也没做什么事情，因为疫情也不想出去，准备夏天到了六月去女朋友老家广西百色吃芒果。<br>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[分享丨黑客马拉松项目-链上制造]]></title>
-        <id>https://baoruizhen.github.io/post/fen-xiang-gun-hei-ke-ma-la-song-xiang-mu-lian-shang-zhi-zao/</id>
-        <link href="https://baoruizhen.github.io/post/fen-xiang-gun-hei-ke-ma-la-song-xiang-mu-lian-shang-zhi-zao/">
+        <id>https://baoruizhen.github.io/post/NNBB/</id>
+        <link href="https://baoruizhen.github.io/post/NNBB/">
         </link>
         <updated>2019-08-27T16:11:10.000Z</updated>
         <summary type="html"><![CDATA[<p>最近一段时间手痒，约了几个创客大腿，在宁波参加了一个黑客松，现场做了个项目——链上智造，当然少不了在宁波当地玩一玩～队伍名叫NNBB，取自宁宁波波，在25个中韩创客队伍中也获得了第三名的成绩。</p>

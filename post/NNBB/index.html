@@ -1,0 +1,244 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>分享丨黑客马拉松项目-链上制造 | Boring Design</title>
+<meta name="description" content="你从哪里发现的这个网站？老包的小秘密都在这里" />
+<link rel="shortcut icon" href="https://baoruizhen.github.io/favicon.ico?v=1598973351250">
+<script src="https://kit.fontawesome.com/6d38c072c1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://baoruizhen.github.io/styles/main.css">
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146294225-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146294225-1');
+</script>
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://baoruizhen.github.io">
+  <img class="avatar" src="https://baoruizhen.github.io/images/avatar.png?v=1598973351250" alt="">
+  </a>
+  <h1 class="site-title">
+    Boring Design
+  </h1>
+  <p class="site-description">
+    你从哪里发现的这个网站？老包的小秘密都在这里
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="/media/images/custom-weixin.jpeg" target="_blank">
+          <i class="fab fa-weixin"></i>
+        </a>
+      
+    
+      
+        <a href="https://space.bilibili.com/20424550" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
+      
+    
+      
+        <a href="https://github.com/Baoruizhen" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+        <a href="https://space.bilibili.com/20424550" target="_blank">
+          <i class="fab fa-zhihu"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              分享丨黑客马拉松项目-链上制造
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-08-28
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://baoruizhen.github.io/post-images/NNBB.webp" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>最近一段时间手痒，约了几个创客大腿，在宁波参加了一个黑客松，现场做了个项目——链上智造，当然少不了在宁波当地玩一玩～队伍名叫NNBB，取自宁宁波波，在25个中韩创客队伍中也获得了第三名的成绩。</p>
+<!-- more -->
+<p><img src="https://baoruizhen.github.io/post-images/1567137819406.webp" alt="" loading="lazy"><br>
+先来说说项目，这个项目用一句话来讲：基于区块链及人工智能辅助设计的大批量产品定制工作流。听起来云里雾里，又是区块链，又是人工智能，又是设计制造的。<br>
+我们一点一点来介绍，首先这是一个我们创想的未来产品生产的方式。在未来人们会拥有更多定制个人产品的机会，但是怎样去完成定制产品的过程呢，如何采集用户的数据来定制？如何设计出不同的方案来满足需求？如何制造出来这样定制的产品？</p>
+<h1 id="数据采集">数据采集</h1>
+<p>采集用户的身体数据不是一个难点，现在有如此之多的传感器everywhere，不管是个人的手机上的立体视觉（TOF相机、激光立体相机），还是各种专业的设备。在比赛现场我们做了一个利用Processing + Leap Motion SDK+ Python（数据导出）采集用户手参数的简单DEMO。<br>
+<img src="https://baoruizhen.github.io/post-images/1567137874287.webp" alt="" loading="lazy"></p>
+<h1 id="人工智能设计">人工智能设计</h1>
+<p><img src="https://baoruizhen.github.io/post-images/1567137886176.webp" alt="" loading="lazy"><br>
+采集到用户手的数据之后，通过交互式进化算法来设计，也就是数据处理，我们利用Rhino + Grosshopper参数化建模，做的是手环，截几张图大家理解一下。<br>
+<img src="https://baoruizhen.github.io/post-images/1567137929416.webp" alt="" loading="lazy"><br>
+用户选择进化的方向<br>
+<img src="https://baoruizhen.github.io/post-images/1567137934972.webp" alt="" loading="lazy"><br>
+友好的交互界面<br>
+<img src="https://baoruizhen.github.io/post-images/1567137939595.webp" alt="" loading="lazy"><br>
+选择喜欢的方向<br>
+<img src="https://baoruizhen.github.io/post-images/1567137944083.webp" alt="" loading="lazy"><br>
+最终产品</p>
+<p>这样设计好处有两个方面：<br>
+一是增强 Augmentation<br>
+⭕️自动化定量设计分析研究<br>
+⭕️自动化选择 / 生成设计方向<br>
+⭕️自动化测试和降低设计⻛险<br>
+⭕️自动化生成批量不同版本设计<br>
+二是自动化 Automation<br>
+⭕️智能理解客戶需求 / 建构客戶模型<br>
+⭕️智能调用同样问题的类似设计方案<br>
+⭕️智能生成最佳性价比的设计方案<br>
+⭕️智能分类 / 排序设计条件优先级<br>
+⭕️智能跟踪设计的实施问题</p>
+<p>整个交互式进化设计的过程，相对于设定目标函数，交互式进化算法（IEAs）允许设计者参与进化开发过程本身。这创造了一个复杂的体验，帮助探索参数模型的广泛组合空间，而不总是知道你要走向何方。这里原<a href="https://mp.weixin.qq.com/s/1q-0O-_7sCel-c-gZHSqQw">微信文章</a>里有个视频方便大家理解。</p>
+<h1 id="数据储存">数据储存</h1>
+<p>在采集用户个人身体数据的过程中，会产生大量的数据。这其中的身体数据具有不可篡改性，例如你的指纹，你不能修改你的指纹，但是会有被复制去干坏事的风险。那我们利用区块链来保障用户的隐私。首先我们会拿到数据先特征提取，做好数据脱敏再上传到云端（上链），身体数据的使用记录全部在链上。<br>
+<img src="https://baoruizhen.github.io/post-images/1567138200695.webp" alt="" loading="lazy"><br>
+同时整个平台工作流的交易也通过智能合约来完成，这些交易可追踪且不可逆转。我们在现场做了一个简单的demo<br>
+<img src="https://baoruizhen.github.io/post-images/1567138207229.webp" alt="" loading="lazy"><br>
+buyer：需求发布 智能合约<br>
+<img src="https://baoruizhen.github.io/post-images/1567138212577.webp" alt="" loading="lazy"><br>
+saler：接单（定金） 产品交付</p>
+<h1 id="分布式制造">分布式制造</h1>
+<p>在生产制造环节，因为不是大批量的生产，需要生产设备（无论是在工厂还是家里）来根据需求进行柔性制造。在未来，产品可以在任何地方生产（当然是增材制造发展到一定境界）。我们利用8266+阿里生活物联网平台改了一个可以远程下发、控制、集中管理的3D打印机，也许是第一个上阿里生活物联网平台的3D打印机。<br>
+<img src="https://baoruizhen.github.io/post-images/1567138225806.webp" alt="" loading="lazy"></p>
+<h1 id="最后">最后</h1>
+<p><img src="https://baoruizhen.github.io/post-images/1567138234032.webp" alt="" loading="lazy"><br>
+总结一下，我们利用区块链来做数据管理，利用人工智能来辅助设计，利用物联网来实现分布式制造。这几个技术和相对应的应用场景，形成一个完整的工作流来完成大规模个人化的产品定制。相比较传统产品的设计制造方式，从不同方面，我们的优势如下图<br>
+<img src="https://baoruizhen.github.io/post-images/1567138241902.webp" alt="" loading="lazy"><br>
+看到的人多，再更新宁波的游记和一些在比赛时的想法，后续的项目准备一个一个落地，吹过的牛逼都要一个一个实现（快速失败）。				<br>
+另外推一个我们在宁波黑客马拉松的项目<a href="https://mp.weixin.qq.com/s/qh1D7ux_yQtzusQBexiNvA">Easy Martrix！——为新媒体艺术而生的电机矩阵</a>，虽然没有获奖但是项目落地性强，感兴趣的朋友👆点击上面的蓝色文字。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86">数据采集</a></li>
+<li><a href="#%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%AE%BE%E8%AE%A1">人工智能设计</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%82%A8%E5%AD%98">数据储存</a></li>
+<li><a href="#%E5%88%86%E5%B8%83%E5%BC%8F%E5%88%B6%E9%80%A0">分布式制造</a></li>
+<li><a href="#%E6%9C%80%E5%90%8E">最后</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://baoruizhen.github.io/post/he-lin-mu-zi-guo-de-she-ji-bi-sai-zuo-pin/">
+              <h3 class="post-title">
+                和林木子果的设计比赛作品
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Copyright © 2020 Boring, Built with Gridea | 
+  <a class="rss" href="https://baoruizhen.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
